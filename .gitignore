@@ -1,0 +1,28 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrets / environment variables
+.env
+.env.*
+!.env.example
+
+# Angular / Node dependencies
+node_modules/
+
+# Angular build files
+dist/
+.angular/
+
+# IDE files
+.vscode/
+.idea/
+
+# Windows files
+Thumbs.db
+Desktop.ini
